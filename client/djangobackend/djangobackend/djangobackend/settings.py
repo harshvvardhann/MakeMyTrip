@@ -50,19 +50,12 @@ INSTALLED_APPS = [
     'buses',
     'cabs',
     'holidays',
+    'rest_framework_simplejwt',
+    'account',
+    
 ]
 
-# ADDED FOR AUTHENTICATION
-# REST_FRAMEWORK = {
-#     # Setting default authentication class throughout the django app to use simplejwt
-#     'DEFAULT_AUTHENTICATION_CLASSES': (
-#         'rest_framework_simplejwt.authentication.JWTAuthentication',
-#     )
-# }
-
-# added for authentication
-# AUTH_USER_MODEL='authentication.User'
-# AUTH_USER_MODEL='authenticate1.User'
+AUTH_USER_MODEL = 'account.CustomUser'
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -156,7 +149,17 @@ CORS_ALLOWED_ORIGINS=[
 # TO NORMALLY VIEW THE JSON FILE
 REST_FRAMEWORK={
     'DEFAULT_RENDERER_CLASSES':('rest_framework.renderers.JSONRenderer',),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
 }
 
 
 
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=30),  # Customize token lifetime as needed
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+    'ROTATE_REFRESH_TOKENS': True,
+    'BLACKLIST_AFTER_ROTATION': True,
+    # Additional options can be set here
+}

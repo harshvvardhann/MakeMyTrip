@@ -3,8 +3,11 @@ const paypal = require('paypal-rest-sdk');
 const cors = require('cors');
 
 const app = express();
+
 app.use(cors());
 app.use(express.json())
+
+let amountUSD;
 // PayPal configuration
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
@@ -20,7 +23,7 @@ app.post('/payment', async (req, res) => {
     try {
         const {amount} = req.body;
         const conversionRate = 0.012; 
-        const amountUSD = (amount * conversionRate).toFixed(2);
+        amountUSD = (amount * conversionRate).toFixed(2);
         console.log("Received Amount:",amount);
         let create_payment_json = {
             "intent": "sale",
@@ -28,8 +31,8 @@ app.post('/payment', async (req, res) => {
                 "payment_method": "paypal"
             },
             "redirect_urls": {
-                "return_url": "http://localhost:3000/success?status=success",
-                "cancel_url": "http://localhost:3000/failed?status=failed"
+                "return_url": "http://localhost:8001/success",
+                "cancel_url": "http://localhost:8001/failed"
             },
             "transactions": [{
                 "item_list": {
@@ -91,7 +94,7 @@ app.get('/success', async (req, res) => {
         paypal.payment.execute(paymentId, execute_payment_json, function (error, payment) {
             if (error) {
                 console.log(error)
-                return res.redirect("http://localhost:3000/failed?status=failed");
+                return res.redirect("http://localhost:3000/failed");
             } else {
                 console.log("Execute Payment Response");
                 // console.log(payment);
@@ -102,7 +105,7 @@ app.get('/success', async (req, res) => {
 
                 console.log("transactions", transactions);
 
-                return res.redirect("http://localhost:3000/success?status=success");
+                return res.redirect("http://localhost:3000/success");
             }
         })
 
@@ -116,11 +119,11 @@ app.get('/success', async (req, res) => {
 
 app.get('/failed', async (req, res) => {
 
-    return res.redirect("http://localhost:3000/failed?status=failed");
+    return res.redirect("http://localhost:3000/failed");
 })
 
 // Start the server
-app.listen(8000, () => {
+app.listen(8001, () => {
 
-    console.log('Server is running on port 8000');
+    console.log('Server is running on port 8001');
 });
