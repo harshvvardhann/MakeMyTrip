@@ -41,14 +41,14 @@
     position: absolute;
     left: 3%;
     top: 0.7%;
-    width: 100%; /* Take full width on smaller screens */
-    max-width: 300px; /* Maximum width for filter options */
-    margin-right: 20px; /* Margin to separate from the property list */
+    width: 100%; 
+    max-width: 300px; 
+    margin-right: 20px; 
     background-color: rgba(245, 245, 245, 0.9);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0; /* Prevents it from shrinking on smaller screens */
+    flex-shrink: 0; 
 }
 
 .filter-group {
@@ -92,7 +92,7 @@
     color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 200%; /* Ensure the card takes full width of its container */
+    width: 200%; 
 }
 
 
@@ -134,7 +134,7 @@
     left: 29%;
 }
 
-/* Book now button */
+
 
 .book-now-btn {
     background-color: #007bff;

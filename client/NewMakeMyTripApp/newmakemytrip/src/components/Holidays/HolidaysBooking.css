@@ -9,17 +9,17 @@
   border-radius: 20px;
 }
 
-/* Header Section */
+
 .holidays-search-header {
-  /* display: flex; */
+  
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #007bff, #001f3f); /* Gradient for background */
+  background: linear-gradient(135deg, #007bff, #001f3f); 
   width: 100%;
   padding: 40px 25px;
   border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
 }
 
 .holidays-search-header h1 {
@@ -38,7 +38,7 @@
   margin-bottom: 30px;
 }
 
-/* Search Button Styles */
+
 .holidays-btn-primary {
   background-color: #ffcc00;
   color: #001f3f;
@@ -48,15 +48,15 @@
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Button shadow */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 
 .holidays-btn-primary:hover {
-  background-color: #ff9900; /* Hover color */
-  transform: translateY(-5px); /* Slight lift effect */
+  background-color: #ff9900; 
+  transform: translateY(-5px); 
 }
 
-/* Filters Section */
+
 .holidays-filters {
   background-color: #fff;
   padding: 50px;
@@ -65,7 +65,7 @@
   width: 30%;
 }
 
-/* Filters Header */
+
 .holidays-filters h3 {
   font-size: 1.8rem;
   font-weight: 700;
@@ -80,7 +80,7 @@
   color: #333;
 }
 
-/* Range slider styling */
+
 .holidays-filters .form-range {
   background: #007bff;
   height: 5px;
@@ -96,7 +96,7 @@
   cursor: pointer;
 }
 
-/* Card Section */
+
 .holidays-cards-section {
   padding: 0px;
   position: absolute;
@@ -104,7 +104,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px; /* Add some space between the cards */
+  gap: 10px; 
   max-width: 60%;
 }
 
@@ -145,10 +145,10 @@
   margin-bottom: 10px;
 }
 
-/* Media query for mobile devices */
+
 @media (max-width: 768px) {
   .holidays-card {
-    width: 100%; /* Full width on smaller screens */
+    width: 100%; 
   }
 }
 

@@ -1,4 +1,4 @@
-/* Signup Page Styling */
+
   .signup-container {
     position: absolute;
     top: 0%;
@@ -87,7 +87,7 @@
   text-decoration: underline;
 }
 
-/* Animation for smooth appearance */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

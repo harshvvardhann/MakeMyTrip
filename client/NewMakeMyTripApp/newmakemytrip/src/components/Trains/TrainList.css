@@ -1,4 +1,4 @@
-/* Banner Section */
+
 .banner-section {
   background-color: #f0f0f5;
   padding: 30px;
@@ -21,7 +21,7 @@
   line-height: 1.5;
 }
 
-/* Train List Container */
+
 .train-list-container {
   background-color: #fff;
   padding: 30px;
@@ -34,7 +34,7 @@
   max-width: 90%;
 }
 
-/* Train Card */
+
 .train-card {
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -42,7 +42,7 @@
   padding: 25px;
   max-width: 100%;
   transition: transform 0.3s;
-  font-family: 'Roboto', sans-serif; /* Changed font for better readability */
+  font-family: 'Roboto', sans-serif; 
 }
 
 .train-card:hover{
@@ -75,7 +75,7 @@
 .view-route-btn:hover {
   color: #0056b3;
 }
-/* Time Details */
+
 .time-label {
   font-size: 15px;
   color: #757575;
@@ -87,11 +87,11 @@
   color: #333;
 }
 
-/* Inner Train Sections (AC, Non-AC, Sleeper) */
+
 .train-sections {
   display: flex;
-  justify-content: space-between; /* Ensures banners are aligned horizontally */
-  margin-top: 20px; /* Space between main banner and train sections */
+  justify-content: space-between; 
+  margin-top: 20px; 
 }
 
 .section-banner {
@@ -107,10 +107,10 @@
 }
 
 .section-banner:last-child {
-  margin-right: 0; /* Remove margin from the last banner */
+  margin-right: 0; 
 }
 
-/* Different Section Colors */
+
 .ac-section {
   background-color: #e0f7fa;
 }
@@ -123,7 +123,7 @@
   background-color: #ffe0b2;
 }
 
-/* Section Content */
+
 .section-banner p {
   margin: 5px 0;
   font-size: 14px;
@@ -137,14 +137,14 @@
   color: #007bff;
 }
 
-/* Price Styling */
+
 .price {
   color: #e64a19;
   font-size: 17px;
   font-weight: 600;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   .train-sections {
     flex-direction: column;
@@ -152,7 +152,7 @@
 
   .section-banner {
     margin-right: 0;
-    margin-bottom: 10px; /* Add margin between vertical banners */
+    margin-bottom: 10px; 
   }
 }
 
@@ -179,7 +179,7 @@
 }
 
 
-/* Route Banner Container */
+
 .route-banner {
   position: absolute;
   left: 52%;
@@ -193,13 +193,13 @@
   opacity: 1;
 }
 
-/* Route Banner Content */
+
 .route-banner-content {
   text-align: left;
   z-index: 10;
 }
 
-/* Route Title */
+
 .route-banner h5 {
   font-family: 'Arial', sans-serif;
   font-size: 18px;
@@ -209,7 +209,7 @@
   text-align: center;
 }
 
-/* Route List */
+
 .route-banner ul {
   list-style-type: none;
   padding: 0;
@@ -232,7 +232,7 @@
 }
 
 
-/* FILTERS */
+
 .filters-section {
   background-color: #ffffff;
   padding: 20px;

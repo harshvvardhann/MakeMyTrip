@@ -1,4 +1,4 @@
-/* Global Styles */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 .app-container {
@@ -14,7 +14,7 @@
   min-height: 100vh;
 }
 
-/* Header Section */
+
 .header {
   display: flex;
   background: linear-gradient(135deg, #007bff, #00b3ff);
@@ -83,14 +83,14 @@
   box-shadow: 0 4px 10px rgba(255, 108, 97, 0.5);
 }
 
-/* Main Content */
+
 .main-content {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-/* Filters Section */
+
 .filters {
   background-color: #fff;
   padding: 25px;
@@ -116,7 +116,7 @@
   margin-top: 10px;
 }
 
-/* Cab Cards Section */
+
 .cab-list {
   display: flex;
   flex-direction: column;
@@ -143,7 +143,7 @@
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-between; /* Ensure that the price and button stay on the right side */
+  justify-content: space-between; 
   gap: 20px;
 }
 
@@ -189,7 +189,7 @@
   text-align: right;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align price and button to the right */
+  align-items: flex-end; 
 }
 
 .cab-price {
@@ -215,7 +215,7 @@
   background-color: #0056b3;
 }
 
-/* Responsive fix */
+
 /* @media (max-width: 768px) {
   .cab-card {
     flex-direction: column;

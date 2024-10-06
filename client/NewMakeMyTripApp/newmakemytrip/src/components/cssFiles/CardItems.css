@@ -1,29 +1,29 @@
-/* CardItems.css */
+
 .card {
-    width: 100%; /* Ensures card takes up full width of its container */
-    max-width: 300px; /* Set a maximum width for cards */
-    margin: 0 auto; /* Center cards horizontally */
-    height: 400px; /* Set a fixed height for all cards */
+    width: 100%; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    height: 400px; 
     display: flex;
-    flex-direction: column; /* Make sure content flows vertically */
+    flex-direction: column; 
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    overflow: hidden; /* Hide overflow content */
+    overflow: hidden; 
 }
 
 .card-img-top {
-    width: 100%; /* Make sure image covers the full width of the card */
-    height: 200px; /* Fixed height for image */
-    object-fit: cover; /* Ensure image covers area without distortion */
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space out content evenly */
+    justify-content: space-between; 
     padding: 15px;
-    flex: 1; /* Allow card body to take remaining space */
+    flex: 1; 
 }
 
 .card-title {
@@ -34,13 +34,13 @@
 .card-text {
     font-size: 1rem;
     margin-bottom: 15px;
-    overflow: hidden; /* Hide any overflow text */
-    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    overflow: hidden; 
+    text-overflow: ellipsis; 
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limit text to 3 lines */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
 }
 
 .btn {
-    margin-top: auto; /* Push button to the bottom of the card */
+    margin-top: auto; 
 }

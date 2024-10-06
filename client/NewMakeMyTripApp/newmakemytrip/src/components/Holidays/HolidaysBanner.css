@@ -88,10 +88,10 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  align-items: flex-start; /* Align items at the top */
+  align-items: flex-start; 
 }
 
-/* Fixing the width of each column to ensure consistent alignment */
+
 .new-routes {
   flex: 1;
   font-size: 24px;
@@ -122,13 +122,13 @@
 
 .trending-images {
     display: flex;
-    justify-content: flex-start; /* Align items to the start */
-    gap: 10px; /* Add spacing between the image items */
-    align-items: center; /* Align items vertically in the center */
-    flex-wrap: nowrap; /* Prevent wrapping to keep all items in a single line */
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
-    white-space: nowrap; /* Prevent wrapping of inline elements */
-    max-width: 100%; /* Ensure the container does not exceed the banner width */
+    justify-content: flex-start; 
+    gap: 10px; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    max-width: 100%; 
   }
   
   .image-item {
@@ -136,13 +136,13 @@
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    flex: 0 0 auto; /* Do not grow or shrink */
+    flex: 0 0 auto; 
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 200px; /* Fix the maximum width */
-    min-width: 150px; /* Optional: Set a minimum width if needed */
+    max-width: 200px; 
+    min-width: 150px; 
   }
   
   .image-item img {
@@ -159,7 +159,7 @@
   transition: transform 0.3s ease;
 }
 
-/* Additional styling for equal height and consistency */
+
 .dropdown-content > div {
   display: flex;
   flex-direction: column;
@@ -169,7 +169,7 @@
 .new-routes,
 .routes-list,
 .trending-images {
-  min-height: 150px; /* Ensuring all sections are of equal height */
+  min-height: 150px; 
 }
 
 .banner .navbar .nav-item {
@@ -192,8 +192,8 @@
 }
 
 
-/* Banner-Cards */
-/* Minimal Banner-Cards */
+
+
 .holiday-banner {
   text-align: center;
   padding: 30px;
@@ -299,7 +299,7 @@
 }
 
 
-/* CARDS BANNER */
+
 .holidays-harsh{
   background-color: #f2f2f2;
   position: absolute;
@@ -309,7 +309,7 @@
   border-radius: 20px;
 }
 
-/* BAnner Lower Part */
+
 .hotels-container {
   width: 100%;
   display: flex;
@@ -323,7 +323,7 @@
   top: 390%;
 }
 
-/*FOOTER DATA */
+
 .FooterData1{
   background-color:#666;
   position: absolute;
@@ -331,7 +331,7 @@
   left: 10%;
 }
 
-/* FOOTER */
+
 .footer2{
   position: absolute;
   top: 1130%;

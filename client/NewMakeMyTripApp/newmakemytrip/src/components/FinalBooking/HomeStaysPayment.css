@@ -1,4 +1,4 @@
-/* General Styles */
+
 
 .booking-page1 {
   display: flex;
@@ -16,7 +16,7 @@
   box-shadow:0 8px 20px rgba(0, 0, 0, 0.9);
 }
 
-/* Booking Content */
+
 .booking-content {
   flex: 3;
   display: flex;
@@ -146,7 +146,7 @@
   margin-bottom: 10px;
 }
 
-/* User Input Form */
+
 .user-inputs {
   margin-top: 20px;
   width:90%;
@@ -174,7 +174,7 @@
   color: #007bff;
 }
 
-/* Sidebar with Fare Summary and Payment */
+
 .sidebar {
   flex: 1;
 }
@@ -207,7 +207,7 @@
   padding: 10px 0;
 }
 
-/* Payment Section */
+
 .payment-card h5 {
   font-size: 1.5rem;
   color: #007bff;
@@ -246,7 +246,7 @@
   background-color: #218838;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .booking-page {
     flex-direction: column;

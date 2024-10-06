@@ -1,4 +1,4 @@
-/* Login Page Styling */
+
 .login-container {
     z-index: 10;
     position: absolute;
@@ -87,7 +87,7 @@
     text-decoration: underline;
   }
   
-  /* Animation for smooth appearance */
+  
   @keyframes fadeIn {
     0% {
       opacity: 0;

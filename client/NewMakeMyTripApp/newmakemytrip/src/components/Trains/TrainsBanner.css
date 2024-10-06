@@ -1,4 +1,4 @@
-/* HotelsBanner.css */
+
 
 .hotels-banner {
   background-color: white;
@@ -102,42 +102,42 @@
 }
 
 .search-button {
-  background-color: #007aff; /* Use the exact blue shade from the first image */
-  color: #ffffff; /* White text color */
-  font-size: 1.25rem; /* Increase the font size to make the button text larger */
-  font-weight: bold; /* Make the text bold */
-  padding: 10px 30px; /* Adjust padding for height and width */
-  border-radius: 34px; /* Rounded corners */
-  border: none; /* Remove the default border */
-  cursor: pointer; /* Pointer cursor on hover */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for depth */
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  background-color: #007aff; 
+  color: #ffffff; 
+  font-size: 1.25rem; 
+  font-weight: bold; 
+  padding: 10px 30px; 
+  border-radius: 34px; 
+  border: none; 
+  cursor: pointer; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); 
+  transition: background-color 0.3s ease; 
   position: absolute;
   left: 44%;
   top: 90%;
 }
 
 .search-button:hover {
-  background-color: #005bb5; /* Darken the blue on hover */
+  background-color: #005bb5; 
 }
 
-/* FOOTER DATA CSS */
+
 footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f2f2f2; /* Light background for the footer */
+  background-color: #f2f2f2; 
 }
 
 .footer-section {
-  flex: 1 1 20%; /* Flex-grow, flex-shrink, and flex-basis */
+  flex: 1 1 20%; 
   margin: 10px;
   padding: 15px;
-  background-color: #ffffff; /* White background for each section */
-  border: 1px solid #ddd; /* Light border for each section */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  background-color: #ffffff; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .footer-section h4,
