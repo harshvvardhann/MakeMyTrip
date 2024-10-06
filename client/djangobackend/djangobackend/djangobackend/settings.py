@@ -15,6 +15,10 @@ from pathlib import Path
 # import to extend the lifetime of token
 from datetime import timedelta
 
+from dotenv import load_dotenv
+import os 
+load_dotenv()
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,7 +32,7 @@ SECRET_KEY = 'django-insecure-r#u%93z=clv_9qglkw2uz8p*=v#a@a%dre-l9y*fm!4(sh6o3$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -93,12 +97,14 @@ WSGI_APPLICATION = 'djangobackend.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+'default': {
+'ENGINE': 'django.db.backends.postgresql',
+'NAME': os.getenv('POSTGRES_DATABASE'),
+'USER': os.getenv('POSTGRES_USER'),
+'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+'HOST':  os.getenv('POSTGRES_HOST'),
 }
-
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -163,3 +169,8 @@ SIMPLE_JWT = {
     'BLACKLIST_AFTER_ROTATION': True,
     # Additional options can be set here
 }
+
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "ui/static")]
+STATIC_URL = "static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "ui/staticfiles")
