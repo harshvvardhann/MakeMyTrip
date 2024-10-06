@@ -64,4 +64,64 @@ Open your browser and navigate to http://localhost:3000 to access the MakeMyTrip
 Explore the various sections and use the search functionality to find travel options.
 Log in or register to start booking.
 
+## Requirements for backend
+asgiref==3.8.1
+Django==5.1
+django-cors-headers==4.4.0
+django-filter==24.3
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+PyJWT==2.9.0
+rest-framework-simplejwt==0.0.2
+sqlparse==0.5.1
+tzdata==2024.1
 
+
+## Package.json
+
+Here is the `package.json` for the **New MakeMyTrip** project:
+
+```json
+{
+  "name": "newmakemytrip",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.4",
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
