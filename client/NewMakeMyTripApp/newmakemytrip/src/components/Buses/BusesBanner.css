@@ -1,0 +1,122 @@
+/* HotelsBanner.css */
+
+.buses-banner {
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    z-index: 5;
+}
+
+.banner-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.radio-option input {
+    margin-right: 8px;
+}
+
+.new-badge {
+    background-color: #ff6961;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 6px;
+    border-radius: 4px;
+}
+
+.property-link {
+    font-size: 14px;
+    color: #333;
+}
+
+.property-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.search-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.country,
+.day {
+    font-size: 14px;
+    color: #666;
+}
+
+.trending-searches {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.trending-searches .label {
+    font-size: 14px;
+    color: #666;
+    margin-right: 12px;
+}
+
+.trending-button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-button {
+    background-color: #007aff; /* Use the exact blue shade from the first image */
+    color: #ffffff; /* White text color */
+    font-size: 1.25rem; /* Increase the font size to make the button text larger */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 30px; /* Adjust padding for height and width */
+    border-radius: 34px; /* Rounded corners */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for depth */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    position: absolute;
+    left: 44%;
+    top: 90%;
+}
+
+.search-button:hover {
+    background-color: #005bb5; /* Darken the blue on hover */
+}

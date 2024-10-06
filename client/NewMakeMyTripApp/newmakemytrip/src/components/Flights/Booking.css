@@ -1,0 +1,145 @@
+.flight-search-results {
+    display: flex;
+    padding: 20px;
+    z-index: 5;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 90%;
+    background-color: #f0f4f7;
+    border-radius: 10px;
+}
+  
+.filters {
+    width: 22%;
+    background-color: #f0f4f7;
+    padding: 20px;
+    margin-right: 20px;
+}
+  
+.filters h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.filters ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.filters li {
+    margin-bottom: 10px;
+}
+  
+.filters input[type="checkbox"] {
+    margin-right: 10px;
+}
+  
+.results {
+    width: 80%;
+}
+  
+.results h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+  
+.important-info {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.important-info span {
+    color: #0071c2;
+    font-weight: bold;
+}
+  
+.sort-options {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .sort-options button {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sort-options button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .sort-options button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .flight-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .flight-info {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  .flight-info h5 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .flight-info p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .flight-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .flight-price p {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .flight-price button {
+    margin-top: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .flight-price button:hover {
+    background-color: #00579a;
+  }
+  
+  .flight-price .discount {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ff9c00;
+  }
+  

@@ -1,0 +1,154 @@
+.holidays-container {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 27%;
+  z-index: 4;
+  background-color: white;
+  left: 6%;
+  width: 90%;
+  border-radius: 20px;
+}
+
+/* Header Section */
+.holidays-search-header {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #007bff, #001f3f); /* Gradient for background */
+  width: 100%;
+  padding: 40px 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+}
+
+.holidays-search-header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.holidays-search-header p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+/* Search Button Styles */
+.holidays-btn-primary {
+  background-color: #ffcc00;
+  color: #001f3f;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.holidays-btn-primary:hover {
+  background-color: #ff9900; /* Hover color */
+  transform: translateY(-5px); /* Slight lift effect */
+}
+
+/* Filters Section */
+.holidays-filters {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+/* Filters Header */
+.holidays-filters h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.holidays-filters label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Range slider styling */
+.holidays-filters .form-range {
+  background: #007bff;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.holidays-filters .form-range::-webkit-slider-thumb {
+  background-color: #007bff;
+  border: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Card Section */
+.holidays-cards-section {
+  padding: 0px;
+  position: absolute;
+  left: 34%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* Add some space between the cards */
+  max-width: 60%;
+}
+
+.holidays-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 47%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.holidays-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.holidays-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 3px solid #007bff;
+}
+
+.holidays-card .card-body {
+  padding: 15px;
+}
+
+.holidays-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.holidays-card .card-text {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .holidays-card {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+

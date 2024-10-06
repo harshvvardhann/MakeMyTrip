@@ -1,0 +1,238 @@
+/* General Styles */
+
+.booking-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f6f8fc;
+    color: #333;
+    position: absolute;
+    top: 28%;
+    z-index: 4;
+    left: 6%;
+    width: 90%;
+    height: 220%;
+    border-radius: 20px;
+    box-shadow:0 8px 20px rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Booking Content */
+  .booking-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ticket-info {
+    margin-right: 20px;
+  }
+  
+  .flight-info-card{
+    max-width: 90%;
+    height: 70%;
+  }
+  
+  .important-info-card{
+    position: absolute;
+    max-width: 90%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+    top: 55%;
+    left: 5%;
+    height: 15%;
+  }
+  
+  .flight-info-card, 
+  .important-info-card, 
+  .fare-summary-card, 
+  .payment-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .flight-info-card:hover, 
+  .important-info-card:hover, 
+  .fare-summary-card:hover, 
+  .payment-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .heading1 {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .flight-route {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .flight-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .services-amenities {
+    margin-top: 15px;
+  }
+  
+  .services-amenities h5 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .services-amenities ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-amenities ul li {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .baggage-info {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #007bff;
+  }
+  
+  .important-info-card ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .important-info-card ul li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* User Input Form */
+  .user-inputs {
+    margin-top: 20px;
+    width:90%;
+    margin-left: 5%;
+  }
+  
+  .user-inputs input, 
+  .user-inputs textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .user-inputs input:focus, 
+  .user-inputs textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .user-inputs label {
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+  
+  /* Sidebar with Fare Summary and Payment */
+  .sidebar {
+    flex: 1;
+  }
+  
+  .fare-summary-card {
+    margin-bottom: 20px;
+  }
+  
+  .fare-summary-card h5 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .fare-summary-card .fare-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .fare-summary-card .fare-item span {
+    font-size: 1rem;
+  }
+  
+  .fare-summary-card .total-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  /* Payment Section */
+  .payment-card h5 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .payment-card .form-group {
+    margin-top: 15px;
+  }
+  
+  .payment-card input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .payment-card input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .pay-btn {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {   
+    .booking-page {
+      flex-direction: column;
+    }
+  
+    .ticket-info {
+      margin-right: 0;
+    }
+  
+    .sidebar {
+      margin-top: 20px;
+    }
+  }
+  
+  .payment-card{
+    height:  10%;
+  }

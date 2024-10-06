@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "title": "All-Inclusive 4N Holiday - Flights, Sightseeing",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Relaxing%20family%20holiday.jpg",
+      "description": "A delightful holiday package with everything included.",
+      "price": "₹23,839/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "North Goa Sightseeing",
+        "Airport Transfers",
+        "Daily Breakfast"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Luxury Goa Experience - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/E.jpg",
+      "description": "Experience the luxury of Goa with exclusive amenities.",
+      "price": "₹45,000/Person",
+      "highlights": [
+        "5 Star Hotel",
+        "Private Beaches",
+        "Exclusive Sightseeing",
+        "Spa Treatments",
+        "Gourmet Dining"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Romantic Paris Getaway - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Exciting%20yacht%20experience%20in%20Goa.jpg",
+      "description": "Explore the romance of Paris with luxury accommodations.",
+      "price": "₹60,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "Luxury Hotel",
+        "Eiffel Tower Tour",
+        "Seine River Cruise",
+        "Gourmet Dining"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tokyo Adventure - 7 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/plunge_pool.jpg",
+      "description": "Immerse yourself in the vibrant culture of Tokyo.",
+      "price": "₹50,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "City Tours",
+        "Traditional Japanese Dinner",
+        "Shopping Vouchers"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sydney Coastal Escape - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZH.jpg",
+      "description": "Discover the beauty of Sydney’s coastlines.",
+      "price": "₹55,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Harbour Cruise",
+        "Beach Access",
+        "City Sightseeing"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "New York City Tour - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Butterfly%20Beach%20in%20Goa.jpg",
+      "description": "Explore the iconic landmarks of New York City.",
+      "price": "₹70,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "5 Star Hotel",
+        "Broadway Show",
+        "City Tour",
+        "Shopping Experience"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Dubai Luxury Stay - 4 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/summit%201.jpg",
+      "description": "Experience the luxury and grandeur of Dubai.",
+      "price": "₹40,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "5 Star Hotel",
+        "Desert Safari",
+        "Burj Khalifa Tour",
+        "Luxury Shopping"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Singapore Family Fun - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Sunset%20on%20the%20Beach.jpg",
+      "description": "Enjoy a family vacation with exciting activities.",
+      "price": "₹35,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Universal Studios",
+        "Singapore Zoo",
+        "Night Safari"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Istanbul Cultural Escape - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Y.jpg",
+      "description": "Discover the rich history and culture of Istanbul.",
+      "price": "₹45,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Historic Sites Tour",
+        "Bosphorus Cruise",
+        "Turkish Cuisine"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Rome Heritage Tour - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/P.jpg",
+      "description": "Experience the timeless beauty of Rome.",
+      "price": "₹50,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Vatican Tour",
+        "Colosseum Visit",
+        "Italian Dining"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bangkok Excursion - 4 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/O.jpg",
+      "description": "Enjoy a vibrant and colorful vacation in Bangkok.",
+      "price": "₹30,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "3 Star Hotel",
+        "City Tour",
+        "Floating Market Visit",
+        "Night Market"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Barcelona Fiesta - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/U.jpg",
+      "description": "Experience the vibrant culture and beautiful architecture of Barcelona.",
+      "price": "₹55,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Gaudi Tour",
+        "Beach Access",
+        "Tapas Dinner"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Dubai Desert Adventure - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZA.jpg",
+      "description": "An adventurous escape in the Dubai desert.",
+      "price": "₹47,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Desert Safari",
+        "Camel Rides",
+        "Sandboarding"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Vienna Classical Tour - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZZF.jpg",
+      "description": "Enjoy the classical elegance and culture of Vienna.",
+      "price": "₹52,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Classical Concert",
+        "Historic Tour",
+        "Gourmet Dinner"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Marrakech Cultural Experience - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZG.jpg",
+      "description": "Immerse yourself in the vibrant culture of Marrakech.",
+      "price": "₹42,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "City Tour",
+        "Market Visit",
+        "Traditional Cuisine"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Zurich Luxury Retreat - 4 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/J.jpg",
+      "description": "Experience the luxury and beauty of Zurich.",
+      "price": "₹48,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "5 Star Hotel",
+        "City Tour",
+        "Lake Cruise",
+        "Fine Dining"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Hanoi Cultural Journey - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Ancient%20and%20celebrated%20Se%20Cathedral.jpg",
+      "description": "Explore the rich culture and heritage of Hanoi.",
+      "price": "₹32,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "3 Star Hotel",
+        "City Tour",
+        "Halong Bay Cruise",
+        "Traditional Dinner"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Buenos Aires City Break - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/A.jpg",
+      "description": "Discover the vibrant city life of Buenos Aires.",
+      "price": "₹60,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "City Tour",
+        "Tango Show",
+        "Local Cuisine"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Cape Town Adventure - 7 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZF.jpg",
+      "description": "Enjoy the adventure and beauty of Cape Town.",
+      "price": "₹55,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Table Mountain Tour",
+        "Winelands Tour",
+        "Beach Access"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Amsterdam City Tour - 4 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/villa%20goa.jpg",
+      "description": "Experience the charm and beauty of Amsterdam.",
+      "price": "₹40,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "3 Star Hotel",
+        "Canal Cruise",
+        "Museum Visits",
+        "Local Dining"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Hong Kong Excursion - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZZE.jpg",
+      "description": "Explore the bustling city of Hong Kong.",
+      "price": "₹38,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "City Tour",
+        "Shopping Tour",
+        "Theme Park Visit"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Lisbon Coastal Escape - 4 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/FLg%20House%20%20APt.jpg",
+      "description": "Relax on the beautiful coast of Lisbon.",
+      "price": "₹45,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Coastal Tour",
+        "City Exploration",
+        "Local Cuisine"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Berlin History Tour - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Y.jpg",
+      "description": "Dive into the rich history of Berlin.",
+      "price": "₹48,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Historic Sites Tour",
+        "Museum Visits",
+        "Local Dining"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Dubai Adventure & Leisure - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZS.jpg",
+      "description": "Enjoy a blend of adventure and relaxation in Dubai.",
+      "price": "₹55,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Desert Safari",
+        "Beach Access",
+        "Shopping Tour"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Prague Romantic Getaway - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Comfortable%20buses.jpg",
+      "description": "Experience a romantic escape in the beautiful city of Prague.",
+      "price": "₹47,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "City Tour",
+        "River Cruise",
+        "Romantic Dinner"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Athens Historical Journey - 5 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/B.jpg",
+      "description": "Explore the historical wonders of Athens.",
+      "price": "₹43,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Acropolis Tour",
+        "City Exploration",
+        "Greek Cuisine"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Dubai Luxury & Fun - 6 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/V.jpg",
+      "description": "Indulge in luxury and entertainment in Dubai.",
+      "price": "₹60,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "5 Star Hotel",
+        "Burj Khalifa Tour",
+        "Desert Safari",
+        "Luxury Shopping"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Tokyo Modern & Traditional - 7 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/85340871-H1-Facade.jpg",
+      "description": "Experience both modern and traditional Tokyo.",
+      "price": "₹65,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "5 Star Hotel",
+        "City Tour",
+        "Cultural Experiences",
+        "Shopping Vouchers"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Lisbon & Porto Discovery - 7 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/pexels-shvetsa-4015018.jpg",
+      "description": "Discover the best of Lisbon and Porto.",
+      "price": "₹55,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotels",
+        "City Tours",
+        "Wine Tasting",
+        "Historic Sites"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Cape Town & Safari Adventure - 8 Nights",
+      "image": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Novotel%20Resort%20&%20Spa.jpg",
+      "description": "Experience Cape Town and an exciting safari adventure.",
+      "price": "₹70,000/Person",
+      "highlights": [
+        "Round Trip Flights",
+        "4 Star Hotel",
+        "Safari Tour",
+        "Cape Winelands Tour",
+        "City Exploration"
+      ]
+    }
+  ]
+  

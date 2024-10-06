@@ -1,0 +1,229 @@
+/* Container for the Navbar */
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px; /* Reduced padding for a smaller navbar */
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    width: 75%;
+    height: 85px; /* Increased height for a more prominent navbar */
+    border-radius: 13px;
+    margin: 30px auto; /* Adds space above the navbar */
+    background-color: white;
+    background-repeat: no-repeat;
+    top: 80px; /* Moves the navbar down */
+    z-index: 9;
+    position: fixed;
+    left: 12%;
+    transition: top 1.0s ease;
+}
+
+/* Grid layout for the menu items */
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+/* Links in the navbar */
+.nav-links {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.1rem; /* Slightly smaller font size */
+    font-weight: 600;
+    padding: 0px 20px; /* Adjusted padding for a cleaner look */
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+/* Active link styling */
+.nav-links.active {
+    color: #008cff; /* Blue color for the active link */
+    font-weight: bold; /* Optional: Make the active link bold */
+}
+
+/* Hover effect for nav links */
+.nav-links:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    color: #007bff; /* Change text color on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.2s ease; /* Smooth transition for hover effects */
+}
+
+/* Specific layout for list items */
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Icon styling */
+.nav-menu i {
+    font-size: 20px; /* Slightly smaller icon size */
+}
+
+/* Title styling */
+.NavbarItems h1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem; /* Slightly smaller title size */
+    font-weight: 700;
+}
+
+/* Logo styling */
+.imageLogo {
+    width: 25px; /* Adjusted logo size */
+}
+
+/* Logo-Image */
+.img-logo{
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    z-index: 4;
+}
+
+.search1{
+    position: absolute;
+    top: 2%;
+    left: 73%;
+    z-index: 4;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #ffffff; /* Shining white */
+        color: #000000; /* Black text */
+    }
+    50% {
+        background-color: #008cff; /* Shining light blue */
+        color: #ffffff; /* White text */
+    }
+    100% {
+        background-color: #ffffff; /* Shining white */
+        color: #000000; /* Black text */
+    }
+}
+
+.search1 .search-button {
+    background-color: #ffffff; /* Initial background color */
+    color: #000000; /* Initial text color */
+    animation: colorChange 3s infinite; /* 3 seconds for one full cycle */
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.search-button {
+    background-color: #007aff; /* Use the exact blue shade from the first image */
+    color: #ffffff; /* White text color */
+    font-size: 1.25rem; /* Increase the font size to make the button text larger */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 30px; /* Adjust padding for height and width */
+    border-radius: 34px; /* Rounded corners */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for depth */
+    transition: background-color 1.3s ease; /* Smooth background color transition */
+    position: absolute;
+    left: 44%;
+    top: 90%;
+}
+
+.search-button:hover {
+    background-color: #005bb5; /* Darken the blue on hover */
+}
+
+.new-badge {
+    background-color: #ff6961;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 6px;
+    border-radius: 4px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: -4%;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    .NavbarItems {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 10px;
+        height: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .nav-menu {
+        display: none; /* Hide the menu items by default on mobile */
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-menu.show {
+        display: flex; /* Show menu when toggled */
+    }
+
+    .nav-links {
+        padding: 10px 15px;
+        font-size: 1.1rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .img-logo {
+        width: 80px;
+        height: 40px;
+        left: 5%;
+    }
+
+    .search1 {
+        left: 70%;
+    }
+
+    .search-button {
+        left: 30%;
+    }
+}
+
+/* For very small screens */
+@media screen and (max-width: 480px) {
+    .NavbarItems {
+        padding: 5px;
+        height: auto;
+    }
+
+    .nav-links {
+        font-size: 0.9rem;
+    }
+
+    .img-logo {
+        width: 60px;
+        height: 35px;
+    }
+
+    .search1 {
+        left: 65%;
+    }
+
+    .search-button {
+        left: 25%;
+    }
+}
