@@ -41,24 +41,6 @@ git clone https://github.com/yourusername/MakeMyTrip.git
 
 <br>
 
-## Snapshots 📷
-
-1. Home Page
-
-![Landing Page](https://github.com/shreevalikushe/Make-my-trip-clone/blob/master/frontend/src/images/landing.png)
-
-2. Flights Page
-
-![Flight Page](https://github.com/shreevalikushe/Make-my-trip-clone/blob/master/frontend/src/images/flights.png)
-
-3. Hotels Page
-
-![Hotel Page](https://github.com/shreevalikushe/Make-my-trip-clone/blob/master/frontend/src/images/hotels.png)
-
-4. Login Popup Form
-
-![Login](https://github.com/shreevalikushe/Make-my-trip-clone/blob/master/frontend/src/images/login.png)
-
 ## Usage
 Open your browser and navigate to http://localhost:3000 to access the MakeMyTrip application.
 Explore the various sections and use the search functionality to find travel options.
